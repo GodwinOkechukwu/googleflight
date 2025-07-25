@@ -44,7 +44,7 @@ Due to endpoint limitations, mock flight data is used for demonstration.
 ## 📌 Notes
 
 - Focused on clean UI, responsiveness, and user-friendly structure
-- Time spent: ~14 hours
+
 - Easily extendable to hook into real APIs with minimal changes
 
 ---

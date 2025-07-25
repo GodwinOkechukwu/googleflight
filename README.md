@@ -1,12 +1,52 @@
-# React + Vite
+# ✈️ Google Flights Clone – Spotter Frontend Challenge
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a responsive flight booking web app built with **React** and **Tailwind CSS**, as part of the Frontend Developer Assessment for Spotter.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🔧 Tech Stack
 
-## Expanding the ESLint configuration
+- **React** (with Hooks)
+- **Tailwind CSS** for styling
+- **Lucide React Icons**
+- **Mock data** used to simulate real API responses (Sky-Scrapper API intended)
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## ✅ Features Implemented
+
+- Roundtrip and Oneway toggle
+- Search form with:
+  - From/To city fields
+  - Depart and Return dates
+  - Passenger count
+- Popular destination suggestions
+- Mock flight results with:
+  - Flight info
+  - Price
+  - Duration
+  - Airline rating
+- Tabs for `Search`, `Explore`, and `My Trips`
+- Fully responsive layout for mobile and desktop
+
+---
+
+## ⚙️ API Integration
+
+The structure allows easy integration with [Sky-Scrapper API](https://rapidapi.com/apiheya/api/sky-scrapper).  
+Due to endpoint limitations, mock flight data is used for demonstration.
+
+---
+
+
+---
+
+## 📌 Notes
+
+- Focused on clean UI, responsiveness, and user-friendly structure
+- Time spent: ~14 hours
+- Easily extendable to hook into real APIs with minimal changes
+
+---
+
+Thank you for reviewing this project!
